@@ -1,0 +1,33 @@
+div, ul, li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.eachGif{
+    margin: 20px;
+    text-align: center;
+    float: left;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.pageNumbers{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.pageNumbersDiv{
+    margin-left: 280px;
+}
+
+.gifsDiv{
+    float: left;
+}
+

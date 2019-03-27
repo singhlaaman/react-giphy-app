@@ -47,7 +47,7 @@ class Cat extends Component {
   }
 
   componentDidMount() {
-    fetch("http://api.giphy.com/v1/gifs/search?q=cat&api_key=5d70ONYFLMXtwvOMuP6bwJ05CSSzHxYC&limit=30")
+    fetch("https://api.giphy.com/v1/gifs/search?q=cat&api_key=5d70ONYFLMXtwvOMuP6bwJ05CSSzHxYC&limit=30")
       .then(res => res.json())
       .then(
         (result) => {
